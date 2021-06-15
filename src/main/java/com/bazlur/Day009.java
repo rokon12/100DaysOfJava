@@ -11,14 +11,24 @@ public class Day009 {
   }
 
   public static void main(String[] args) {
-    findBookByAuthorName("Java Programming")
+
+    var bookOpt = findBookByName("Java Programming");
+    if (bookOpt.isPresent()) {
+      var book = bookOpt.get();
+      var releasedYear = book.releasedYear();
+      System.out.println("Java Programming was published in " + releasedYear);
+    } else {
+      System.out.println("Book was not found");
+    }
+
+    findBookByName("Java Programming")
             .map(Book::releasedYear)
             .ifPresentOrElse((releasedYear)
                             -> System.out.println("Java Programming was published in " + releasedYear),
                     () -> System.out.println("Book was not found"));
   }
 
-  public static Optional<Book> findBookByAuthorName(String name) {
+  public static Optional<Book> findBookByName(String name) {
 
     return books.stream()
             .filter(book -> book.title().equalsIgnoreCase(name))
