@@ -21,6 +21,8 @@ public class Day009 {
       System.out.println("Book was not found");
     }
 
+    //or
+
     findBookByName("Java Programming")
             .map(Book::releasedYear)
             .ifPresentOrElse((releasedYear)
