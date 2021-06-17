@@ -1,7 +1,7 @@
 # 100DaysOfJava
 
 ## TOC
-
+-   2021/06/17 [Let’s use the new HTTP Client that java 11 brought](https://bazlur.com/2021/06/lets-use-the-new-http-client-that-java-11-brought/)
 -   2021/06/16 [How to calculate date and time involving time zone?
     doesn’t have to be
     hard.](https://bazlur.com/2021/06/how-to-calculate-date-and-time-involving-time-zone-doesnt-have-to-be-hard./)
