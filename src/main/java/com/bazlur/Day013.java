@@ -8,7 +8,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.function.Supplier;
 
-public class Day13 {
+public class Day013 {
   public static void main(String[] args) throws IOException {
     //2^82,589,933 − 1
     var theLargestKnownPrime = withElapsedTime(() -> {
