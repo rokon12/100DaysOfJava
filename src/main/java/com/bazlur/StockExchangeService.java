@@ -17,6 +17,10 @@ public class StockExchangeService {
     return getBitConValue(GOOGLE_FINANCE_QUOTE_BTC_CAD, CAD_TEXT);
   }
 
+  public Optional<String> getBitcoinValueInUSD() {
+    return getBitConValue(GOOGLE_FINANCE_QUOTE_BTC_USD, USD_TEXT);
+  }
+
   private Optional<String> getBitConValue(String url, String textToFind) {
     var connect = Jsoup.connect(url);
     try {
@@ -32,7 +36,5 @@ public class StockExchangeService {
     }
   }
 
-  public Optional<String> getBitcoinValueInUSD() {
-    return getBitConValue(GOOGLE_FINANCE_QUOTE_BTC_USD, USD_TEXT);
-  }
+
 }
