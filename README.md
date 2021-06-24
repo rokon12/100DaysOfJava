@@ -1,6 +1,9 @@
 # 100DaysOfJava
 
 ## TOC
+-   2021/06/20 [CompletableFuture made life easy, running things asynchronous](https://bazlur.com/2021/06/completablefuture-made-life-easy-running-things-asynchronous/)
+-   2021/06/19 [Let’s find out the most enormous known prime number using java](https://bazlur.com/2021/06/lets-find-out-the-most-enormous-known-prime-number-using-java/)
+-   2021/06/18 [Let’s create coffee with a decorator pattern with the help of lambda expression](https://bazlur.com/2021/06/lets-create-coffee-with-a-decorator-pattern-with-the-help-of-lambda-expression/)
 -   2021/06/17 [Let’s use the new HTTP Client that java 11 brought](https://bazlur.com/2021/06/lets-use-the-new-http-client-that-java-11-brought/)
 -   2021/06/16 [How to calculate date and time involving time zone?
     doesn’t have to be
