@@ -1,6 +1,7 @@
 # 100DaysOfJava
 
 ## TOC
+-   2021/06/24 [Project loom: the light at the end of the tunnel](https://bazlur.com/2021/06/project-loom-the-light-at-the-end-of-the-tunnel/)
 -   2021/06/20 [CompletableFuture made life easy, running things asynchronous](https://bazlur.com/2021/06/completablefuture-made-life-easy-running-things-asynchronous/)
 -   2021/06/19 [Let’s find out the most enormous known prime number using java](https://bazlur.com/2021/06/lets-find-out-the-most-enormous-known-prime-number-using-java/)
 -   2021/06/18 [Let’s create coffee with a decorator pattern with the help of lambda expression](https://bazlur.com/2021/06/lets-create-coffee-with-a-decorator-pattern-with-the-help-of-lambda-expression/)
