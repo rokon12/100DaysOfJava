@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.Executors;
 
 public class Day018_1 {
   public static void main(String[] args) throws IOException {
@@ -15,12 +14,12 @@ public class Day018_1 {
     var serverSocket = new ServerSocket(port);
     System.out.println("Started server on port " + port);
 
-    try (var executors = Executors.newVirtualThreadExecutor()) {
-      while (true) {
-        var socket = serverSocket.accept();
-        executors.submit(() -> handle(socket));
-      }
-    }
+//    try (var executors = Executors.newVirtualThreadExecutor()) {
+//      while (true) {
+//        var socket = serverSocket.accept();
+//        executors.submit(() -> handle(socket));
+//      }
+//    }
   }
 
   private static void handle(Socket socket) {
