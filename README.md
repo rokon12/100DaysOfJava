@@ -1,6 +1,10 @@
 # 100DaysOfJava
 
 ## TOC
+-   2021/06/28 [Java Thread Programming: Lesson 3](https://bazlur.com/2021/06/java-thread-programming-lesson-3/)
+-   2021/06/26 [Java Thread Programming: Lesson 2](https://bazlur.com/2021/06/java-thread-programming-lesson-2/)
+-   2021/06/26 [Java Thread Programming: Lesson 1](https://bazlur.com/2021/06/java-thread-programming-lesson-1/)
+-   2021/06/25/[Let’s remove the boilerplate code with execute-around pattern](https://bazlur.com/2021/06/lets-remove-the-boilerplate-code-with-execute-around-pattern/)
 -   2021/06/24 [Project loom: the light at the end of the tunnel](https://bazlur.com/2021/06/project-loom-the-light-at-the-end-of-the-tunnel/)
 -   2021/06/20 [CompletableFuture made life easy, running things asynchronous](https://bazlur.com/2021/06/completablefuture-made-life-easy-running-things-asynchronous/)
 -   2021/06/19 [Let’s find out the most enormous known prime number using java](https://bazlur.com/2021/06/lets-find-out-the-most-enormous-known-prime-number-using-java/)
