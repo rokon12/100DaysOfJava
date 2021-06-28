@@ -1,6 +1,7 @@
 package com.bazlur;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -29,6 +30,9 @@ public class Playground {
 //    var cubed = transform(5, cubeIt);
 //    System.out.println("cube of 5 = " + cubed);
 
+    var hash = "";
+    hash.hashCode();
+
 
     int[] ints = {1, 2, 3, 4, 5, 6};
     var listOfInts = Arrays.stream(ints)
@@ -39,6 +43,27 @@ public class Playground {
   static Integer transform(Integer value, Function<Integer, Integer> func) {
     var applied = func.apply(value);
     return applied;
+  }
+
+  class User {
+    private String name;
+
+    public User(String name) {
+      this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+      if (this == o) return true;
+      if (!(o instanceof User)) return false;
+      User user = (User) o;
+      return Objects.equals(name, user.name);
+    }
+
+    @Override
+    public int hashCode() {
+      return Objects.hash(name);
+    }
   }
 }
 
